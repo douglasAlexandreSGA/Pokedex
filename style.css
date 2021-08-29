@@ -1,36 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: url(https://images.alphacoders.com/998/thumb-1920-998181.jpg);
+body {
+  background: #9b59b6;
 }
-h1{
-    text-align: center;
-    width: 100%;
-    background:#e67e22;
+h1 {
+  text-align: center;
+  width: 100%;
+  background: #e67e22;
 }
-.box{
-    width: 20em;
-    height: 20em;
-    background: #e67e22;
-    border-radius: 150px;
+.box {
+  width: 20em;
+  height: 20em;
+  background: #e67e22;
+  border-radius: 150px;
 }
-.conteiner-pokemons{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
+.conteiner-pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
 }
-.conteiner-pokemon{
-    border: solid 4px #e67e22;
-    padding: 8px;
-    border-radius: 150px;
-   background: #f1af74;
+.conteiner-pokemon {
+  border: solid 4px #e67e22;
+  padding: 8px;
+  border-radius: 150px;
+  background: #f1af74;
+  cursor: pointer;
 }
-.geracoes{
-    width: 100%;
-
+.geracoes {
+  width: 100%;
+}
+.modal-conteiner {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  padding: 32px;
+  background: white;
+  border-radius: 8px;
 }
